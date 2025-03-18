@@ -77,10 +77,10 @@
                 class="logo"
                 style="width: 50px; height: 50px"
             /></a>
-            <span style="padding-left: 8px;padding-top: 4px; font-weight: 600; color: #fff;">
-              <span style="font-weight: bolder ; font-size: 25px; padding-top: -2px;">iDrew</span> <br />
+            <span style="padding-left: 8px;padding-top: 8px; font-weight: 600; color: #fff; line-height: 15px;">
+              <span style="font-weight: bolder ; font-size: 25px; ">iDrew</span> <br />
               
-              <span style="letter-spacing: 2px;">Softwares</span>
+              <span style="letter-spacing: 2px; ">Softwares</span>
             </span>
           </div>
           <div class="navbar-header">
@@ -105,7 +105,37 @@
                   <a href="#special-offers" class="inner-link">Comminity</a>
                 </li>
                 <li><a href="#contact-us" class="inner-link">Contact</a></li>
+                <li>
+                  <button 
+                    style="
+                      color: white; 
+                      font-weight: bold;
+                      background: linear-gradient(45deg, #feda75, #fa7e1e, #d62976, #962fbf, #4f5bd5); 
+                      background-size: 300% 300%;
+                      padding: 5px 25px; 
+                      border: 2px solid transparent;
+                      cursor: pointer;
+                      transition: all 0.3s ease-in-out;
+                      position: relative;
+                    " 
+                    onmouseover="
+                      this.style.color='black'; 
+                      this.style.background='white'; 
+                      this.style.border='2px solid transparent';
+                      this.style.borderImage='linear-gradient(45deg, #feda75, #fa7e1e, #d62976, #962fbf, #4f5bd5) 1';
+                      "
+                    onmouseout="
+                      this.style.color='white'; 
+                      this.style.background='linear-gradient(45deg, #feda75, #fa7e1e, #d62976, #962fbf, #4f5bd5)'; 
+                      this.style.border='2px solid transparent';
+                    "
+                  >
+                    Free demo
+                  </button>
+                </li>
+                
               </ul>
+              
             </div>
           </div>
         </div>
@@ -403,7 +433,7 @@
             class="col-md-12 text-center margin-five no-margin-top sm-margin-bottom-ten"
           >
             <h1>ABOUT iDrew</h1>
-            <h6 class="margin-one letter-spacing-2 ">
+            <h6 class="margin-one">
                 At iDrew Software, we craft custom software solutions tailored to your needs, blending innovation with intuitive design. From web and app development to UI/UX excellence, we bring ideas to life with a human-centric approach.
             </h6>
           </div>
@@ -420,8 +450,7 @@
               Best Price Guarantee
             </h5>
             <p>
-              Lorem Ipsum is simply dummy text the printing and typesetting
-              industry.
+              Get the best value with unbeatable prices and top-quality solutions guaranteed.
             </p>
           </div>
           <!-- end features item -->
